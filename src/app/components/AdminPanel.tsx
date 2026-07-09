@@ -7,7 +7,7 @@ export function AdminPanel() {
 
   return (
     <div className="p-6 bg-slate-900 min-h-screen text-slate-200">
-      <h2 className="text-2xl font-serif text-amber-400 mb-6">Painel de Administração (CRUDs)</h2>
+      <h2 className="text-2xl font-serif text-amber-400 mb-6">Painel de Administração (CRUDs) - Mestre</h2>
       <div className="flex gap-4 border-b border-slate-700 mb-6">
         <button 
           onClick={() => setActiveTab("items")}
