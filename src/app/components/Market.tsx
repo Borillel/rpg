@@ -104,7 +104,7 @@ export function Market({ character, onUpdateCharacter }: MarketProps) {
       {}
       <div className="bg-slate-800/50 border border-amber-700/20 p-5 rounded">
         <h3 className="text-amber-300 font-medium text-lg mb-4 flex items-center gap-2">
-          <ShoppingCart className="w-5 h-5" /> Loja do Aventureiro
+          <ShoppingCart className="w-5 h-5" /> Loja do Aventureiro (Mercado)
         </h3>
         <p className="text-xs text-slate-400 mb-3">Preços dinâmicos afetados por seus títulos e nível.</p>
         <div className="space-y-3">
