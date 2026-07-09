@@ -56,7 +56,7 @@ export function UserArea() {
               <ArrowLeft className="w-5 h-5" />
               Início
             </Link>
-            <h1 className="text-2xl font-serif text-amber-400">Área do Jogador</h1>
+            <h1 className="text-2xl font-serif text-amber-400">Área Restrita do Jogador</h1>
           </div>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2 text-slate-300">
