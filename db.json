@@ -1,0 +1,367 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Thorin",
+      "role": "player",
+      "characterIds": [
+        "1"
+      ],
+      "avatar": "T"
+    },
+    {
+      "id": "u2",
+      "name": "Selene",
+      "role": "player",
+      "characterIds": [
+        "2"
+      ],
+      "avatar": "S"
+    },
+    {
+      "id": "u3",
+      "name": "Oryn",
+      "role": "player",
+      "characterIds": [
+        "3"
+      ],
+      "avatar": "O"
+    },
+    {
+      "id": "gm",
+      "name": "Mestre",
+      "role": "gm",
+      "characterIds": [],
+      "avatar": "M"
+    }
+  ],
+  "characters": [
+    {
+      "id": "1",
+      "name": "Aldric o Bravo",
+      "class": "Guerreiro",
+      "level": 15,
+      "inventory": [
+        {
+          "id": "i1",
+          "name": "Espada Flamejante",
+          "type": "Arma",
+          "rarity": "Lendário",
+          "quantity": 1,
+          "description": "Uma espada antiga forjada nas chamas do dragão ancestral. Causa dano de fogo adicional."
+        },
+        {
+          "id": "shop1",
+          "name": "Poção de Cura",
+          "type": "Consumível",
+          "rarity": "Comum",
+          "quantity": 1,
+          "description": "Restaura 50 de HP.",
+          "price": 10
+        }
+      ],
+      "gold": 91
+    },
+    {
+      "id": "2",
+      "name": "Lyra das Sombras",
+      "class": "Ladina",
+      "level": 12,
+      "inventory": [
+        {
+          "id": "i5",
+          "name": "Adagas Gêmeas",
+          "type": "Arma",
+          "rarity": "Raro",
+          "quantity": 2,
+          "description": "Par de adagas perfeitamente balanceadas para ataques rápidos e precisos."
+        }
+      ],
+      "gold": 100
+    },
+    {
+      "id": "3",
+      "name": "Mago Theron",
+      "class": "Mago",
+      "level": 18,
+      "inventory": [
+        {
+          "id": "i8",
+          "name": "Cajado do Arquimago",
+          "type": "Arma",
+          "rarity": "Lendário",
+          "quantity": 1,
+          "description": "Cajado antigo que amplifica o poder de feitiços arcanos."
+        }
+      ],
+      "gold": 100
+    }
+  ],
+  "rolls": [
+    {
+      "id": "1lcKm1M864Y",
+      "dice": "d4",
+      "result": 3,
+      "timestamp": "2026-07-07T07:08:48.719Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "B4rv3oF-xEM",
+      "dice": "d4",
+      "result": 3,
+      "timestamp": "2026-07-07T07:08:50.589Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "JxclgKA7CUc",
+      "dice": "d12",
+      "result": 7,
+      "timestamp": "2026-07-07T07:08:52.743Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "hkKDLax74W0",
+      "dice": "d12",
+      "result": 1,
+      "timestamp": "2026-07-07T07:08:53.812Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "56QIUgTifKI",
+      "dice": "d12",
+      "result": 4,
+      "timestamp": "2026-07-07T07:08:56.461Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "PoQqTGTSTLQ",
+      "dice": "d12",
+      "result": 9,
+      "timestamp": "2026-07-07T07:08:56.697Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "G9YTAY2gyE4",
+      "dice": "d12",
+      "result": 12,
+      "timestamp": "2026-07-07T07:08:56.870Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "387VOHt01ZE",
+      "dice": "d12",
+      "result": 12,
+      "timestamp": "2026-07-07T07:08:57.104Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "FYaFC1fpaVM",
+      "dice": "d4",
+      "result": 2,
+      "timestamp": "2026-07-07T07:10:25.160Z",
+      "rollerName": "Aldric o Bravo"
+    },
+    {
+      "id": "kLvRiQpqwM8",
+      "dice": "d4",
+      "result": 2,
+      "timestamp": "2026-07-07T07:10:31.982Z",
+      "rollerName": "Mestre"
+    },
+    {
+      "id": "KS-ojtv5YEk",
+      "dice": "d12",
+      "result": 3,
+      "timestamp": "2026-07-07T07:10:34.693Z",
+      "rollerName": "Mestre"
+    },
+    {
+      "id": "oJVkxvx8Yu8",
+      "dice": "d4",
+      "result": 1,
+      "timestamp": "2026-07-07T07:10:49.672Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "zrmixiIezdE",
+      "dice": "d4",
+      "result": 3,
+      "timestamp": "2026-07-07T07:10:51.758Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "8ATPcxQ1Cbc",
+      "dice": "d4",
+      "result": 4,
+      "timestamp": "2026-07-07T07:11:32.048Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "b6_Y3zkvJSA",
+      "dice": "d6",
+      "result": 2,
+      "timestamp": "2026-07-07T07:12:24.417Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "j6vtKp2C5tk",
+      "dice": "d6",
+      "result": 3,
+      "timestamp": "2026-07-07T07:12:26.216Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "U_Ga4S6FDJI",
+      "dice": "d6",
+      "result": 3,
+      "timestamp": "2026-07-07T07:12:26.416Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "OEnChWe5hwc",
+      "dice": "d6",
+      "result": 3,
+      "timestamp": "2026-07-07T07:12:26.590Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "h1zjtrXGP3Q",
+      "dice": "d6",
+      "result": 4,
+      "timestamp": "2026-07-07T07:12:26.801Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "gpV89W8xSQE",
+      "dice": "d6",
+      "result": 3,
+      "timestamp": "2026-07-07T07:12:26.974Z",
+      "rollerName": "Lyra das Sombras"
+    },
+    {
+      "id": "FMd3c7vd3PA",
+      "dice": "d4",
+      "result": 4,
+      "timestamp": "2026-07-07T07:21:27.877Z",
+      "rollerName": "Mago Theron"
+    },
+    {
+      "id": "us6WXdsLkvU",
+      "dice": "d4",
+      "result": 3,
+      "timestamp": "2026-07-07T08:37:03.034Z",
+      "rollerName": "Mestre"
+    },
+    {
+      "id": "mOLB9TjrXMk",
+      "dice": "d4",
+      "result": 3,
+      "timestamp": "2026-07-07T08:37:07.003Z",
+      "rollerName": "Mestre"
+    },
+    {
+      "id": "5-vkg1Vt3DQ",
+      "dice": "d4",
+      "result": 1,
+      "timestamp": "2026-07-07T18:01:13.234Z",
+      "rollerName": "Mestre"
+    },
+    {
+      "id": "FK1_dkCqesU",
+      "dice": "d4",
+      "result": 1,
+      "timestamp": "2026-07-07T18:01:14.352Z",
+      "rollerName": "Mestre"
+    }
+  ],
+  "tokens": [
+    {
+      "id": "vYT2LUXaAUQ",
+      "mapId": "m2",
+      "characterId": "1",
+      "x": 52.59421826577464,
+      "y": 48.1776547254918
+    },
+    {
+      "id": "aTEkEGsFDmU",
+      "mapId": "m2",
+      "characterId": "2",
+      "x": 50.5172436941868,
+      "y": 47.28590580649259
+    },
+    {
+      "id": "boN7oLyqXjw",
+      "mapId": "m2",
+      "characterId": "3",
+      "x": 46.55015393486623,
+      "y": 52.2089844895776
+    },
+    {
+      "id": "usREXV8PFsM",
+      "mapId": "m1",
+      "characterId": "1",
+      "x": 46.983016752551514,
+      "y": 54.77885149793745
+    },
+    {
+      "id": "gcIjHcaCTYs",
+      "mapId": "m1",
+      "characterId": "2",
+      "x": 53.15081650774977,
+      "y": 47.69321585562708
+    },
+    {
+      "id": "Vw9WXc1wGso",
+      "mapId": "m1",
+      "characterId": "3",
+      "x": 46.36456922242372,
+      "y": 50.601568022201924
+    },
+    {
+      "id": "QutFauy53TY",
+      "mapId": "m1",
+      "name": "benis",
+      "isEnemy": false,
+      "x": 47.82965600555743,
+      "y": 28.305065233985527
+    },
+    {
+      "id": "PL34dhJxCqk",
+      "mapId": "m2",
+      "name": "benis",
+      "isEnemy": false,
+      "x": 54.60456588903101,
+      "y": 48.28268373789931
+    }
+  ],
+  "items": [
+    {
+      "id": "shop1",
+      "name": "Poção de Cura",
+      "type": "Consumível",
+      "rarity": "Comum",
+      "quantity": 10,
+      "description": "Restaura 50 de HP.",
+      "price": 10
+    },
+    {
+      "id": "shop2",
+      "name": "Escudo de Madeira",
+      "type": "Equipamento",
+      "rarity": "Comum",
+      "quantity": 5,
+      "description": "Um escudo leve.",
+      "price": 25
+    },
+    {
+      "id": "shop3",
+      "name": "Espada Longa",
+      "type": "Arma",
+      "rarity": "Incomum",
+      "quantity": 2,
+      "description": "Uma espada padrão.",
+      "price": 50
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
